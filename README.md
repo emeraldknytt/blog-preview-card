@@ -10,7 +10,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+  - [Acknowledgment](#Acknowledgement)
+  - [Note](#Note)
 
 
 ## Overview
@@ -29,19 +30,19 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/blog-preview-card-with-cursor-interactability-60M5XR37oI)
+- Live Site URL: [](https://emeraldknytt.github.io/blog-preview-card/)
 
 ### Built with
 
-- HTML5 markup
+- HTML5
 - CSS 
 
 ### What I learned
 
 In this exercise, I learned how box-shadow works in CSS.
 
-To see how you can add code snippets, see below:
+
 
 
 ```css
@@ -50,3 +51,15 @@ To see how you can add code snippets, see below:
 }
 ```
 
+###  Acknowledgement 
+
+Special thanks to [MatPawluk](https://wwww.frontendmentor.io/profile/MatPawLuk) for the insightful corrections and advice. In response to his suggestions, I have made this changes, and while I could have added under an "Update" section. I am dedicating this section to him. Thanks MatPawLuk!
+`changes made`
+- Modified `body width` to `100vh` for page responsiveness.
+- Changed `description` styling from `id` selector to `class` selector
+- Edited `alt attribute` of illustration `svg` file to `illustration-logo`
+
+
+###   Note
+
+There are a few css selectors that have similar property-value pair. Optimise `css` file when you have a chance to do that.

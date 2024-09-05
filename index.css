@@ -1,6 +1,6 @@
 body {
-  width: auto;
-  height: 960px;
+  width: 100vh;
+  height: 100vh;
   background-color: #F4D04E;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ body {
   cursor: pointer;
 }
 
-.text #description {
+.text .description {
   color: #6B6B6B;
   font-size: 1rem;
   font-weight: 500;
@@ -116,3 +116,14 @@ body {
 .attribution a {
    color: hsl(228, 45%, 44%); 
   } */
+
+@media (max-width: 375px) {
+  .card {
+    width: 17.4375rem;
+  }
+  
+  .text h2 {
+    width: 3.0625;
+    height: 1.125;
+  }  
+}
