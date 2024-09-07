@@ -8,7 +8,7 @@ body {
   justify-content: center;
 }
 
-.card {
+main {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -18,23 +18,17 @@ body {
   height: 29.625rem;
   padding: 1.5rem;
   border: solid 1px black;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
   box-shadow: 8px 8px 0 0 #000;
 }
 
-.card img {
+img {
   border-radius: 10px;
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  margin:0;
-  
-}
 
-.text h2 {
-  margin:0;
+h3 {
+  margin: 1.5rem 0 0 0;
   padding: 0.25rem 0.75rem;
   background-color: #F4D04E;
   color: #111;
@@ -48,17 +42,29 @@ body {
   line-height: 150%;
 }
 
-.text p {
+time {
   margin: 0.75rem 0;
-  color: #111;
-  font-family: Figtree;
-  font-size: 0.875rem;
   font-style: normal;
-  font-weight: 500;
   line-height: 150%;
+  color: #111;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Figtree;
+  line-height:150%;
 }
 
-.text h1 {
+p {
+  margin: 0.75rem 0;
+  font-style: normal;
+  line-height: 150%;
+  color: #6B6B6B;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Figtree;
+  line-height:150%;
+}
+
+h2 {
   margin: 0;
   color: #111;
   font-family: Figtree;
@@ -68,7 +74,7 @@ body {
   line-height: 150%;
 }
 
-.text h1:hover {
+h2:hover {
   color: #F4D04E;
   cursor: pointer;
 }

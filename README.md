@@ -59,6 +59,12 @@ Special thanks to [MatPawluk](https://wwww.frontendmentor.io/profile/MatPawLuk) 
 - Changed `description` styling from `id` selector to `class` selector
 - Edited `alt attribute` of illustration `svg` file to `illustration-logo`
 
+I would also like to thank [Teodor Jenkler](https://www.frontendmentor.io/profile/TedJenkler) for explaining a few tips that will help improve the readability of my code and accessibilty of my webpage. Adhering to his tips, I made these changes.... Thanks Teodor!
+
+- Used a `main` tag to wrap the content of the profile card instead of `div`
+- Got rid of the unnecessary divs I had in my code 
+- Learned about `time` element (suggested by Teodor) and used it in my HTML code.
+
 
 ###   Note
 
